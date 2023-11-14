@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+}
+
+header{
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    list-style-type: none;
+    height: 140px;
+}
+
+footer {
+    background-color: blanchedalmond;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.textofooter {
+    text-align: end;
+    font-size: 30px;
+}
+
+
+.button{
+    color: rgb(248, 27, 27)
+}
+
+.nome{
+    font-size:130%;
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.sobre{
+    font-size:150%;
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+}
+
+.title{
+    position: relative;
+    margin-left: 60%;
+    font-size: x-large;
+}
+
+.text{
+    position: relative;
+    margin-left: 45%;
+    font-size: x-large;
+}
+
+.fotoPerfil img {
+    border-radius: 50%;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: -250px;
+    height: auto;
+}
